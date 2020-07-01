@@ -5,5 +5,6 @@ const datastore = require('../controllers/datastore')
 
 Route
   .post('/addData', datastore.addData)
+  .get('/getAllData', datastore.getAllData)
 
 module.exports = Route
